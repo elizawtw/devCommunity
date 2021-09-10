@@ -19,8 +19,8 @@ import Modal from "./components/Modal";
 import "react-toastify/dist/ReactToastify.css";
 require('dotenv').config();
 
-// const WEATHER_API = process.env.REACT_APP_WEATHER_API_KEY;
-const WEATHER_API = "863e83d14307a779468265863efa8899";
+const WEATHER_API = process.env.REACT_APP_WEATHER_API_KEY;
+
 
 
 //axios call uses ajax. but by default ajax call wont send the cookies session info to browser, then we need to manually add here as another param
